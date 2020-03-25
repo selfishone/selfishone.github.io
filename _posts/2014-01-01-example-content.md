@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Example content
+categories: [blog, travel]
+tags: [hot, summer]
 ---
 
 
