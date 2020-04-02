@@ -12,7 +12,7 @@ baseurl:             ''
 blogurl:             '/blog'
 paginate:            5
 plugins:
-  - jekyll-paginate
+  - jekyll-paginate 
 # About/contact 
 author:
   name:              Nikhil Manikonda
