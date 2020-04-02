@@ -1,0 +1,39 @@
+I"<p>Java 8 since its release in 2014 has become the most widely adopted java version being used by over 80% of Java applications, it has become the default version to which legacy applications are usually updated to. The reason it is Java8 is usually because version 7 has reached its EOL but upgrading to version 9 is too big of a step that companies would like to take. But even when team are updating to Java8 or writing a new app using it rareley do they even use the new features of the version. This stems from the fact that why fix anything which is not broken.</p>
+
+<p>As much as I want to disagree, that is the harsh reality of things, I say harsh  because newer versions come with some awesome features.Even though legacy applications now a days have been updated to Java8 as a defacto version, teams usually dont use the new features. This article aims to educate people on what benifits these features provide as a way to give them a reson to try using the new features for development.</p>
+
+<h3 id="java8-new-features">Java8 New Features</h3>
+
+<p>Java 8 really has a ton of new features, but we will only be covering those below which I think are the most important ones:</p>
+
+<ul>
+  <li>Default methods in interfaces</li>
+  <li>Lambda Expressions</li>
+  <li>Stream API.</li>
+  <li>Functional Interfaces</li>
+  <li>Method References</li>
+</ul>
+
+<h3 id="default-methods-in-interfaces">Default Methods in interfaces</h3>
+
+<p>Let’s say you have written a java interface which is implemented by a different groups. The API had gained popularity over the course of the year and you plan to add on new functionality to it. But there is a catch, any addition you make y=to your interface must not effect the current implementations. The new changes you are going to introduce must not force new changes onto the current implementations. So how do we do it?</p>
+
+<ul>
+  <li>Toggleable sliding sidebar (built with only CSS) via <strong>☰</strong> link in top corner</li>
+  <li>Sidebar includes support for textual modules and a dynamically generated navigation with active link support</li>
+  <li>Two orientations for content and sidebar, default (left sidebar) and <a href="https://github.com/poole/lanyon#reverse-layout">reverse</a> (right sidebar), available via <code class="highlighter-rouge">&lt;body&gt;</code> classes</li>
+  <li><a href="https://github.com/poole/lanyon#themes">Eight optional color schemes</a>, available via <code class="highlighter-rouge">&lt;body&gt;</code> classes</li>
+</ul>
+
+<p><a href="https://github.com/poole/lanyon#readme">Head to the readme</a> to learn more.</p>
+
+<h3 id="browser-support">Browser support</h3>
+
+<p>Lanyon is by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), and Firefox, it is only compatible with Internet Explorer 9 and above.</p>
+
+<h3 id="download">Download</h3>
+
+<p>Lanyon is developed on and hosted with GitHub. Head to the <a href="https://github.com/poole/lanyon">GitHub repository</a> for downloads, bug reports, and features requests.</p>
+
+<p>Thanks!</p>
+:ET

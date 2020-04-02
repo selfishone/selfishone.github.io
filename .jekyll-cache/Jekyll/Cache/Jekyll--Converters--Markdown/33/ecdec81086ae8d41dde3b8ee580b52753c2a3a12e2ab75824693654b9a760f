@@ -1,0 +1,40 @@
+I"I<p>Anyone who has worked as a Java developer or engineer knows that most of the Legacy applications are stuck with the version 8 of Java since its release in 2014, even though more newer versions till 13 have been released by oracle, companies rarely try to adopt them. More on it for another article but, even whey they really do update the version, rarely do they even try to refactor their code to make use of the new features. The reason behind this usually stems from the fact that why fix anything which is not broken.</p>
+
+<p>As much as I want to disagree, that is the harsh reality of things, I say harsh  because newer versions come with some awesome features.Even though legacy applications now a days have been updated to Java8 as a defacto version, teams usually dont tend to use the new features. This article aims to educate people on what benifits these features provide as a way to give them a reson to try using the new features for development.</p>
+
+<h3 id="built-on-poole">Built on Poole</h3>
+
+<p>Poole is the Jekyll Butler, serving as an upstanding and effective foundation for Jekyll themes by <a href="https://twitter.com/mdo">@mdo</a>. Poole, and every theme built on it (like Lanyon here) includes the following:</p>
+
+<ul>
+  <li>Complete Jekyll setup included (layouts, config, <a href="/404">404</a>, <a href="/atom.xml">RSS feed</a>, posts, and <a href="/about">example page</a>)</li>
+  <li>Mobile friendly design and development</li>
+  <li>Easily scalable text and component sizing with <code class="highlighter-rouge">rem</code> units in the CSS</li>
+  <li>Support for a wide gamut of HTML elements</li>
+  <li>Related posts (time-based, because Jekyll) below each post</li>
+  <li>Syntax highlighting, courtesy Pygments (the Python-based code snippet highlighter)</li>
+</ul>
+
+<h3 id="lanyon-features">Lanyon features</h3>
+
+<p>In addition to the features of Poole, Lanyon adds the following:</p>
+
+<ul>
+  <li>Toggleable sliding sidebar (built with only CSS) via <strong>☰</strong> link in top corner</li>
+  <li>Sidebar includes support for textual modules and a dynamically generated navigation with active link support</li>
+  <li>Two orientations for content and sidebar, default (left sidebar) and <a href="https://github.com/poole/lanyon#reverse-layout">reverse</a> (right sidebar), available via <code class="highlighter-rouge">&lt;body&gt;</code> classes</li>
+  <li><a href="https://github.com/poole/lanyon#themes">Eight optional color schemes</a>, available via <code class="highlighter-rouge">&lt;body&gt;</code> classes</li>
+</ul>
+
+<p><a href="https://github.com/poole/lanyon#readme">Head to the readme</a> to learn more.</p>
+
+<h3 id="browser-support">Browser support</h3>
+
+<p>Lanyon is by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), and Firefox, it is only compatible with Internet Explorer 9 and above.</p>
+
+<h3 id="download">Download</h3>
+
+<p>Lanyon is developed on and hosted with GitHub. Head to the <a href="https://github.com/poole/lanyon">GitHub repository</a> for downloads, bug reports, and features requests.</p>
+
+<p>Thanks!</p>
+:ET
