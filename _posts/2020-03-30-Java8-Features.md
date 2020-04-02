@@ -7,9 +7,22 @@ tags: [Java]
 
 Java 8 since its release in 2014 has become the most widely adopted java version being used by over 80% of Java applications, it has become the default version to which legacy applications are usually updated to. The reason it is Java8 is usually because version 7 has reached its EOL but upgrading to version 9 is too big of a step that companies would like to take. But even when team are updating to Java8 or writing a new app using it rareley do they even use the new features of the version. This stems from the fact that why fix anything which is not broken. 
 
+
+
+<!-- Start of Unsplash Embed Code - Full-width (Embed code by @BirdyOz)-->
+<div style="width:100%; margin: 20px auto;">
+    <img src="https://images.unsplash.com/photo-1555421689-491a97ff2040?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjEyMDd9" class="img-responsive img-fluid img-lge" alt="person using iMac " title="person using iMac ">
+    <div class="text-muted" style="opacity: 0.5">
+        <small><a href="https://unsplash.com/photos/Imc-IoZDMXc" target="_blank">Photo</a> by <a href="https://unsplash.com/@austindistel" target="_blank">@austindistel</a> on <a href="https://unsplash.com" target="_blank">Unsplash</a>, accessed 02/04/2020</small>
+    </div>
+</div>
+<!-- End of Unsplash Embed code -->
+                
+                
+
 As much as I want to disagree, that is the harsh reality of things, I say harsh  because newer versions come with some awesome features.Even though legacy applications now a days have been updated to Java8 as a defacto version, teams usually dont use the new features. This article aims to educate people on what benifits these features provide as a way to give them a reson to try using the new features for development.
 
-### Java8 New Features
+### **Java8 New Features**
 
 Java 8 really has a ton of new features, but we will only be covering those below which I think are the most important ones:
 
@@ -17,7 +30,7 @@ Java 8 really has a ton of new features, but we will only be covering those belo
 * Lambda Expressions
 * Functional Interfaces
 
-### Default Methods in interfaces
+### **Default Methods in interfaces**
 
 Let's say you have written a java interface which is implemented by a different programmers. The API had gained popularity over the course of the year and you plan to add on new functionality to it. But there is a catch, any addition you make to your interface must not effect the current implementations. The new changes you are going to introduce must not force new changes onto the current implementations. So how do we do it?
 
@@ -44,13 +57,13 @@ We see that the AppleSmartWatch class has implemented the default method in the 
 
 Plus default methods are also important in the context of Lambda expressions which can be discussed later in the Lambdas section
 
-### Paradigm shift
+### **Paradigm shift**
 
 Java fundamentally is an object oriented language where everything has to exist within a class, unlike in python or javascript where functions can be declared or can exist outside the class, and behavior(functions) can be passed on just as we do with the variables. 
 
 But it sometimes does help thinking in terms of behaviour rather than objects, and functional programing provides a way for that by making functions the so called first class citizens instead of the classes. It enables to write us less verbose and concise code which has always been a problem with Java. So starting with version 1.8, java has provided us with a way to use functional programming concepts by introducing **lambda Expressions** and **functional intefaces**. 
 
-### Lambda Expressions
+### **Lambda Expressions**
 
 As stated before it sometimes helps to think in terms of behavior rather than in terms of objects. So this problem arises in the context of functions which need to be used at only one place.
 
@@ -78,7 +91,7 @@ The major difference from the method before is that we are assigning the behavio
 
 Plus Lambda expressions can only be used along with **functional interfaces** which will be discussed in the next section.
 
-### Functional Interfaces
+### **Functional Interfaces**
 
 <div class="message">
 An interface with only one abstract function is called a Functional interface
@@ -88,8 +101,22 @@ Java provides **@FunctionalInterface** annotation to ensure no additional abstra
 
 Java has a list of functional interfaces defined in **java.lang.util** package. Instead of creating new interfaces to use lambdas we can instead make use of these. The collection is very good and consists of most used java patterns.
 
-### Summary
+### **Summary**
 
 Java 8 has brought to us these awesome feature which will improve the way we write code and its maintainabiltiy only if we use it. For instance we have seen that lambdas are a way to make the code pretty concise, and defaults have provided us a way to adhere to the principle of **open to extension and closed to modification ** giving us a proper way to improve our interfaces. 
 
 Thanks!
+
+### **References**
+
+[Functional Interfaces](https://blog.jooq.org/2016/02/25/abusing-java-8-functionalinterfaces-as-local-methods/)
+
+[Lambdas Best Practices](https://www.baeldung.com/java-8-lambda-expressions-tips)
+
+[Why Java needs fubctors](https://www.oracle.com/technical-resources/articles/java/architect-lambdas-part1.html)
+
+[Java8 new features and enhansements](https://docs.oracle.com/javase/8/docs/technotes/guides/language/enhancements.html)
+
+[Java8 default methods](https://www.journaldev.com/2752/java-8-interface-changes-static-method-default-method)
+
+[Everything about lambdas from JavaBrains](https://javabrains.thinkific.com/courses/java-8-lambda-basics)
